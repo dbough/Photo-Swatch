@@ -19,9 +19,9 @@
     <body>
         <div class="page_wrapper">
             <header class="main">
-                <div class="container_890">
+                <div class="container_main">
                     <div class="pad_top_10">
-                        <div class="logo f_left bright_text">Photo Swatch</div>
+                        <div class="logo f_left bright_text"><a href="http://localhost:5555">Photo Swatch</a></div>
                         <div class="f_right clearfix"><a href="#">Browse</a></div>
                     </div>
                 </div>

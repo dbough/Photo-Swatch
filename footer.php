@@ -2,7 +2,7 @@
         </div> <!-- end .page_wrapper -->
 
         <footer>
-            <div class="container_890">
+            <div class="container_main">
                 <div class="pad_top_10">
                     <div class="f_left">&copy; <?php echo date('Y') ?> <a href="http://www.danielbough.com">Dan Bough</a></div>
                     <div class="f_right inline_list social clearfix">
