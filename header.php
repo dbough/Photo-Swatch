@@ -1,3 +1,12 @@
+<?php
+switch ( $_GET['p'] ) {
+    case 'single':
+        $pageTitle = "Photo Swatch | Single";
+        break;
+    default:
+        $pageTitle = "Photo Swatch";
+        break;
+}?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -6,7 +15,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Photo Swatch</title>
+        <title><?php echo $pageTitle ?></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 

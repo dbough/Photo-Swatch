@@ -165,7 +165,7 @@ a:active, a:focus, a:hover, .bright_text, .active {
 /* Individual */
 img.photo {
     float:left;
-    max-width:595px;
+    max-width:100%;
     max-height:440px;
     margin:5px 5px 5px 0;
 }
@@ -181,6 +181,10 @@ img.photo {
     width:140px;
     margin-right:0;
 }
+a:hover .swatch_square , a:active .swatch_square {
+    border:solid 3px white;
+    margin:2px;
+}
 .scheme_button {
     float:left;
     width:210px;
@@ -192,6 +196,12 @@ img.photo {
     color:black;
     font-size:1.5em;
     text-align: center;
+}
+a:hover .scheme_button , a:active .scheme_color {
+    background:white;
+    color:black;
+    border:solid 3px white;
+    margin:2px;
 }
 .scheme_color {
     float:left;
@@ -214,6 +224,27 @@ img.photo {
     bottom:10px;
     left:85px;
     text-align: center;
+}
+.scheme_color img {
+    width:32px;
+    height:32px;
+    background:white;
+    padding:2px;
+    display: none;
+}
+.scheme_color:hover img, 
+.scheme_color:active img {
+    display: inline;
+}
+a:hover .scheme_color , a:active .scheme_color {
+    border:solid 3px white;
+    margin:17px;
+}
+a:hover .scheme_color.first , a:active .scheme_color.first {
+    margin-left: -3px;
+}
+a:hover .scheme_color.last , a:active .scheme_color.last {
+    margin-right :-3px;
 }
 
 /* Helpers */
