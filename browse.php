@@ -180,10 +180,10 @@
 		<div class="pagination inline_list f_right">
 			<ul>
 				<li><a href="#">&lt;&lt;</a></li>
-				<li><a href="#">1</a></li>
 				<li><a href="#">2</a></li>
 				<li><a class="active" href="#">3</a></li>
 				<li><a href="#">4</a></li>
+				<li><a href="#">5</a></li>
 				<li><a href="#">&gt;&gt;</a></li>
 			</ul>
 		</div>

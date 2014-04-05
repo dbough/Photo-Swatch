@@ -126,7 +126,7 @@ header.main, footer {
 .container_main {
     max-width:890px;
     margin:0 auto;
-    padding:0 20px;
+    padding:0 10px;
 }
 .container_main.nc {
     min-width: 890px;
