@@ -1,4 +1,4 @@
-<div class="margin_bottom_30 margin_top_20">
+<div class="margin_top_bottom_20">
 
 	<!-- Row -->
 	<a title="Split Complementary" href="/index.php?p=single&amp;i=cat">
@@ -175,5 +175,18 @@
 			</div>
 		</div>
 	</a>
+
+	<div class="container_main nc clearfix">
+		<div class="pagination inline_list f_right">
+			<ul>
+				<li><a href="#">&lt;&lt;</a></li>
+				<li><a href="#">1</a></li>
+				<li><a href="#">2</a></li>
+				<li><a class="active" href="#">3</a></li>
+				<li><a href="#">4</a></li>
+				<li><a href="#">&gt;&gt;</a></li>
+			</ul>
+		</div>
+	</div>
 
 </div>

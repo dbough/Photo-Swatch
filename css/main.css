@@ -147,8 +147,15 @@ a, a:visited {
     text-decoration: none;
     color:inherit;
 }
-a:active, a:focus, a:hover, .bright_text, .active {
+a:active, 
+a:focus, 
+a:hover, 
+.bright_text, 
+.active {
     color:white;
+}
+.pagination .active {
+    font-size:1.33em;
 }
 .logo, .steps, .double_size_text {
     font-size:2em;
@@ -299,6 +306,10 @@ a:hover > .row {
     min-width:135px;
     margin:0 10px;
 }
+.pagination {
+    height:20px;
+    margin:5px;
+}
 
 
 /* Helpers */
@@ -323,6 +334,9 @@ a:hover > .row {
 .margin_top_20 {
     margin-top:20px;
 }
+.margin_top_bottom_20 {
+    margin:20px 0;
+}
 .margin_bottom_30 {
     margin-bottom:30px;
 }
@@ -335,7 +349,9 @@ a:hover > .row {
     display:inline;
 }
 .social.inline_list li,
-.social.inline_list ul {
+.social.inline_list ul,
+.pagination.inline_list li,
+.pagination.inline_list ul {
     padding:10px;
 }
 .head_nav.inline_list li,
