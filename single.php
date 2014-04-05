@@ -1,8 +1,14 @@
-<div class="container_main">
+<div class="container_main nc">
 	
 	<!-- First Row -->
 	<div class="margin_bottom_30 margin_top_20 clearfix">
-		<img class="photo" src="/img/cat.jpg">
+		<div class="single-photo">
+			<?php if ( $_GET['i'] == 'cat' ): ?>
+				<img class="photo" src="/img/cat.jpg">
+			<?php else: ?>
+				<img src="https://farm3.staticflickr.com/2924/13639265954_7b732634e6_b.jpg">
+			<?php endif;?>
+		</div>
 		<a href="#"><div style="background:#2dbd05;" class="swatch_square"></div></a>
 		<a href="#"><div style="background:#e3e6d1;" class="swatch_square last"></div></a>
 		<a href="#"><div style="background:#5b5f5a;" class="swatch_square"></div></a>

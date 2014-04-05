@@ -5,6 +5,7 @@ switch ( $_GET['p'] ) {
         require_once( 'single.php' );
         break;
     case 'browse':
+        require_once( 'browse.php' );
         break;
     default:
         require_once( 'home.php' );

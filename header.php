@@ -28,10 +28,17 @@ switch ( $_GET['p'] ) {
     <body>
         <div class="page_wrapper">
             <header class="main">
-                <div class="container_main">
+                <div class="container_main nc">
                     <div class="pad_top_10">
                         <div class="logo f_left bright_text"><a href="http://localhost:5555">Photo Swatch</a></div>
-                        <div class="f_right clearfix"><a href="#">Browse</a></div>
+                        <nav class="inline_list head_nav f_right clearfix">
+                            <ul>
+                                <li><a href="/index.php?p=browse">Browse</a></li>
+                                <?php if ($_GET[ 'p'] == 'single' ): ?>
+                                <li><a href="#">Share</a></li>
+                            </ul>
+                        </nav>
+                        <?php endif ?>
                     </div>
                 </div>
                 <a href="https://github.com/dbough/Photo-Swatch">
