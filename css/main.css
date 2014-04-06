@@ -359,6 +359,29 @@ a:hover > .row {
     padding:0 10px;
 }
 
+/* social icons */
+span.apico-white {
+  background-image: url("../img/ap_icons_white_social.png");
+}
+.apico {
+    padding-bottom:-3px
+    line-height: 32px;
+    vertical-align: middle;
+}
+.apico-white {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  vertical-align: middle;
+}
+
+.apico-twitter {
+  background-position: 0px -2px;
+}
+.apico-google-plus {
+  background-position: -100px 0px;
+}
 
 /* ==========================================================================
    Helper classes

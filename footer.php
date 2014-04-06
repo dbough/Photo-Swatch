@@ -7,9 +7,16 @@
                     <div class="f_left copyright">&copy; <?php echo date('Y') ?> <a href="http://www.danielbough.com">Dan Bough</a></div>
                     <div class="f_right inline_list social clearfix">
                         <ul>
-                            <li><a href="#">T</a></li>
-                            <li><a href="#">F</a></li>
-                            <li><a href="#">G+</a></li>
+                            <li>
+                                <a href="//twitter.com/danielbough">
+                                    <span title="Follow Dan Bough on Twitter!" class="apico-twitter apico-white"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="//plus.google.com/+DanielBough">
+                                    <span title="Follow Dan Bough on Google+!" class="apico-google-plus apico-white"></span>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
